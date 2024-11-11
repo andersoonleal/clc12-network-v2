@@ -1,7 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "clc12-network-edison-maciel2"
-    key    = "newtork/terraform.tfstate"
+    bucket = "clc12-network-andersonjesus"
+    key    = "network/terraform.tfstate"
     region = "us-east-1"
+    profile = "default"
   }
 }
